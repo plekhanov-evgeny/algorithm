@@ -1,0 +1,25 @@
+{
+    "name": "algrotithm/task",
+    "description": "Algorithms on PHP",
+    "autoload": {
+        "psr-4": {
+            "Algorithm\\": "src/",
+            "Test\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Plekhanov Evgeny",
+            "email": "work.plekhanov@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.1"
+    },
+    "minimum-stability": "stable",
+    "require-dev": {
+        "codeception/codeception": "^4.1",
+        "codeception/module-phpbrowser": "^1.0.0",
+        "codeception/module-asserts": "^1.0.0"
+    }
+}
